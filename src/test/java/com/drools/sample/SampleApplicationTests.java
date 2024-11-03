@@ -1,10 +1,10 @@
-package com.example.drools.sample;
+package com.drools.sample;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApplicationTests {
+class SampleApplicationTests {
 
 	@Test
 	void contextLoads() {
