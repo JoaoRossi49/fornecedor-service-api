@@ -17,9 +17,9 @@ public class DroolsSampleController {
  private DroolsService droolsService;
  
  @PostMapping("/avaliar")
- public int postTeste(@RequestBody Fornecedor fornecedor) {
+ public Fornecedor postTeste(@RequestBody Fornecedor fornecedor) {
 	 Fornecedor resposta = droolsService.avaliar(fornecedor);
-     return resposta.getPontuacao();
+     return resposta;
  }
 
 }
